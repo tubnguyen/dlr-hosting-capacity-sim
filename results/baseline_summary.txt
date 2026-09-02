@@ -1,0 +1,38 @@
+==========================================================================
+  baseline
+==========================================================================
+  window            2024-01-01 to 2024-01-30  (2880 steps of 15 min)
+  corridor          single conductor, 1x, static 800 A, 33.7 km
+  generation        0/4 plants, 0 MW | control cosphi | storage off
+  rating method     mode 0 (static)
+
+  CONVERGENCE
+    power flow            100.00 %  (0 steps failed)
+    control loop           99.93 %
+    max reactive error      0.00 MVAr
+    curtailment retries   0
+
+  LINE RATING
+    mean operative           800 A (+0.0 % against static)
+    corridor loading      mean  14.1 %, p95  14.9 %
+    hours over rating        0.0
+    hours over 80 C design     0.0
+
+  ENERGY
+    available                    0.0 MWh
+    delivered                    0.0 MWh (capacity factor 0.000)
+    curtailed                    0.0 MWh (0.00 % of available)
+    network losses             137.0 MWh
+
+  CONSTRAINTS AFTER CONTROL
+    peak export            -36.7 MW (cap 250 MW, 0.0 h above)
+    hours voltage high       0.0
+    hours voltage low        0.0
+    hours reactive out       0.0 (window +/-33.0 MVAr)
+
+  CONTROL ACTIVITY
+    tap operations            12
+    reactor operations        20
+
+  runtime 66 s
+==========================================================================

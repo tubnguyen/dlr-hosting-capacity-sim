@@ -1,0 +1,38 @@
+==========================================================================
+  dlr2_der1
+==========================================================================
+  window            2024-01-01 to 2024-01-30  (2880 steps of 15 min)
+  corridor          single conductor, 1x, static 800 A, 33.7 km
+  generation        1/4 plants, 108 MW | control droop | storage off
+  rating method     mode 2 (full weather)
+
+  CONVERGENCE
+    power flow            100.00 %  (0 steps failed)
+    control loop          100.00 %
+    max reactive error      0.47 MVAr
+    curtailment retries   0
+
+  LINE RATING
+    mean operative          1863 A (+132.9 % against static)
+    corridor loading      mean  14.5 %, p95  24.8 %
+    hours over rating        0.0
+    hours over 80 C design     0.0
+
+  ENERGY
+    available                47892.0 MWh
+    delivered                47892.0 MWh (capacity factor 0.616)
+    curtailed                    0.0 MWh (0.00 % of available)
+    network losses             840.6 MWh
+
+  CONSTRAINTS AFTER CONTROL
+    peak export             58.9 MW (cap 250 MW, 0.0 h above)
+    hours voltage high       0.0
+    hours voltage low        0.0
+    hours reactive out       0.0 (window +/-33.0 MVAr)
+
+  CONTROL ACTIVITY
+    tap operations            12
+    reactor operations        18
+
+  runtime 791 s
+==========================================================================

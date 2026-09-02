@@ -1,0 +1,2 @@
+season,steps,available_mwh,curtailed_mwh,rating_mean_a,loading_mean_pct,loading_max_pct,t_air_mean_c,pcc_peak_mw,curtailed_pct
+winter,2880,119139.452475,387.32398804574984,1232.1667983848415,62.77765381682447,99.99999850814791,-11.38989236111111,188.6404310728085,0.32510136650747595

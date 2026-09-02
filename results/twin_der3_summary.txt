@@ -1,0 +1,38 @@
+==========================================================================
+  twin_der3
+==========================================================================
+  window            2024-01-01 to 2024-01-30  (2880 steps of 15 min)
+  corridor          twin conductor, 2x, static 1600 A, 33.7 km
+  generation        3/4 plants, 270 MW | control droop | storage off
+  rating method     mode 0 (static)
+
+  CONVERGENCE
+    power flow            100.00 %  (0 steps failed)
+    control loop          100.00 %
+    max reactive error      0.50 MVAr
+    curtailment retries   0
+
+  LINE RATING
+    mean operative          1600 A (+0.0 % against static)
+    corridor loading      mean  48.4 %, p95  76.6 %
+    hours over rating        0.0
+    hours over 80 C design     0.0
+
+  ENERGY
+    available               119085.0 MWh
+    delivered               119085.0 MWh (capacity factor 0.613)
+    curtailed                    0.0 MWh (0.00 % of available)
+    network losses            3052.2 MWh
+
+  CONSTRAINTS AFTER CONTROL
+    peak export            202.2 MW (cap 250 MW, 0.0 h above)
+    hours voltage high       0.0
+    hours voltage low        0.0
+    hours reactive out     415.5 (window +/-33.0 MVAr)
+
+  CONTROL ACTIVITY
+    tap operations          2758
+    reactor operations       156
+
+  runtime 943 s
+==========================================================================

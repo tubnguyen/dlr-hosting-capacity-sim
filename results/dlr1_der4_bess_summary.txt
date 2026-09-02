@@ -1,0 +1,46 @@
+==========================================================================
+  dlr1_der4_bess
+==========================================================================
+  window            2024-01-01 to 2024-01-30  (2880 steps of 15 min)
+  corridor          single conductor, 1x, static 800 A, 33.7 km
+  generation        4/4 plants, 330 MW | control droop | storage on
+  rating method     mode 1 (ambient-adjusted)
+
+  CONVERGENCE
+    power flow            100.00 %  (0 steps failed)
+    control loop           99.79 %
+    max reactive error      0.64 MVAr
+    curtailment retries   0
+
+  LINE RATING
+    mean operative          1232 A (+54.0 % against static)
+    corridor loading      mean  64.5 %, p95 100.0 %
+    hours over rating        0.0
+    hours over 80 C design    11.5
+
+  ENERGY
+    available               119139.5 MWh
+    delivered               117196.9 MWh (capacity factor 0.493)
+    curtailed                 1942.5 MWh (1.63 % of available)
+    network losses            4463.9 MWh
+      by corridor            1942.5 MWh
+
+  CONSTRAINTS AFTER CONTROL
+    peak export            193.6 MW (cap 250 MW, 0.0 h above)
+    hours voltage high       0.0
+    hours voltage low       46.2
+    hours reactive out     457.5 (window +/-33.0 MVAr)
+
+  CONTROL ACTIVITY
+    tap operations          2888
+    reactor operations       120
+
+  STORAGE
+    discharged                3890.1 MWh (64.8 equivalent cycles)
+    charged                   4432.5 MWh
+    delivery shortfall           0.0 MWh (0 steps clamped by export headroom)
+    hours reserve short    153.8
+    mean state of charge    56.2 %
+
+  runtime 2492 s
+==========================================================================
