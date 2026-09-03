@@ -1,6 +1,6 @@
 # DLR Hosting Capacity Simulator
 
-[![CI](https://github.com/OWNER/dlr-hosting-capacity-sim/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/dlr-hosting-capacity-sim/actions/workflows/ci.yml)
+[![CI](https://github.com/tubnguyen/dlr-hosting-capacity-sim/actions/workflows/ci.yml/badge.svg)](https://github.com/tubnguyen/dlr-hosting-capacity-sim/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -65,7 +65,7 @@ Full table: [`results/matrix_summary.csv`](results/matrix_summary.csv).
 ## Quickstart
 
 ```bash
-git clone https://github.com/OWNER/dlr-hosting-capacity-sim
+git clone https://github.com/tubnguyen/dlr-hosting-capacity-sim
 cd dlr-hosting-capacity-sim
 pip install -e ".[dev]"
 
