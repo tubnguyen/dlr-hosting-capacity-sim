@@ -9,6 +9,7 @@ venv/
 .ruff_cache/
 .ipynb_checkpoints/
 runs/
+results/
 *.log
 .DS_Store
 Thumbs.db

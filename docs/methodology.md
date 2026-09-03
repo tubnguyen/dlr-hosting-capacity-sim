@@ -178,11 +178,11 @@ reach is asymmetric in both directions. It connects near the receiving end, so
 it cannot relieve a thermal overload on the sections upstream of its tap — only
 curtailment can. But it shares the final section into the interface with
 generation, so discharging there competes with export for that segment; because
-the battery is not curtailable, the plants are cut instead. In the 30-day
-results this makes curtailment *worse* under a static rating, 20.9 % against
-23.2 %. Grid charging additionally depresses the interface voltage. Both are
-consequences of siting and charging strategy, and both are configurable rather
-than assumed.
+the battery is not curtailable, the plants are cut instead. Storage sited this
+way can therefore *increase* curtailment rather than relieve it, and grid
+charging additionally depresses the interface voltage. Both are consequences of
+siting and charging strategy, and both are configurable
+(`storage_connection`, `storage_charge_source`) rather than assumed.
 
 Dispatch runs in two phases: an intent set before the network is solved, and a
 reconciliation against the export headroom the solved network actually leaves.

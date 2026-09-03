@@ -128,7 +128,7 @@ def main(argv=None) -> int:
     parser.add_argument("--only", nargs="+", metavar="PRESET")
     parser.add_argument("--out", type=Path, default=ROOT / "runs")
     parser.add_argument("--data-dir", type=Path, default=ROOT / "data")
-    parser.add_argument("--figures", type=Path, default=ROOT / "docs" / "figures")
+    parser.add_argument("--figures", type=Path, default=ROOT / "runs" / "figures")
     parser.add_argument("--no-plots", dest="plots", action="store_false")
     parser.add_argument("--collect-only", action="store_true")
     args = parser.parse_args(argv)
